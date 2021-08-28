@@ -237,7 +237,7 @@ def user_stats(df):
     print('-' * 40)
 
 
-def get_sample(df: pd.DataFrame, start: int, end: int) -> pd.DataFrame:
+def get_sample(df: pd.DataFrame, start: int, end: int) -> dict:
     """
     Returns 5 records of the raw data..
 
@@ -249,7 +249,7 @@ def get_sample(df: pd.DataFrame, start: int, end: int) -> pd.DataFrame:
         df - Pandas DataFrame with 5 records
     """
     temp_df = df.iloc[start:end, :]
-    print(temp_df)
+    print(temp_df.to_dict())
 
 
 def main():
