@@ -102,7 +102,7 @@ def get_month():
 def get_day():
     """
         prompts user for the day of the week
-        Returns: day of the week
+        Returns: day of the week or an error message
         """
     while True:
         day = str.lower(input("which day ? : ")).strip()
