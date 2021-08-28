@@ -23,5 +23,5 @@ Raw data from below states were used as source for analysis.
 * washington.
 
 ### Credits
-python documentation - [https://docs.python.org/3/] 
-
+* python documentation - [https://docs.python.org/3/].
+* pandas documentation - [https://pandas.pydata.org/docs/]
